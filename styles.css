@@ -72,6 +72,14 @@
   border-radius: 8px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 320px 64px 320px;
+}
+
 .footer {
   color: #F9FAF8;
   background-color: #1F2937;
