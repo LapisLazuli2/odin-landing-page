@@ -2,16 +2,15 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* body {
-  display: flex;
-  flex-direction: column;
-} */
+body {
+  margin: 0;
+}
 
 .header {
   background-color: #1F2937;
   color: #F9FAF8;
   display: flex;
-  padding: 16px 150px;
+  padding: 16px 320px;
   justify-content: space-between;
   align-items: center;
 }
@@ -40,8 +39,9 @@
   background-color: #1F2937;
   color: #F9FAF8;
   display: flex;
-  justify-content: space-evenly;
-  padding: 64px 128px;
+  /* justify-content: space-between; */
+  /* padding: 64px 128px; */
+  padding: 160px 320px;
 }
 
 .hero {
